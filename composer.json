@@ -1,0 +1,22 @@
+{
+    "name": "aufccs/ipt10-lab6",
+    "description": "A simple PHP project using Composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\Ipt10Lab6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Elmido"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^3.7",
+        "psr/log": "*",
+        "fakerphp/faker": "^1.23"
+    }
+}
